@@ -25,3 +25,5 @@ You can also read the latest version of this documentation online in the http://
 include::guide-bpm.asciidoc[leveloffset=1]
 
 include::guide-bpm-java.asciidoc[leveloffset=2]
+include::guide-bpm-camunda.asciidoc[leveloffset=2]
+include::guide-bpm-zeebe.asciidoc[leveloffset=2]
