@@ -1,0 +1,18 @@
+= Camunda BPM
+
+https://camunda.com/products/camunda-bpm/[Camunda BPM] is a great BPM product. Unlike some monster BPM suites that quickly drive you into vendor-lockins it is more lightweight and allows easy and seamless integration with custom applications.
+
+== Integration with devonfw
+
+To integrate Camunda BPM with devonfw ... TODO
+
+== Links
+
+* Camunda Architectures: https://docs.camunda.org/manual/latest/introduction/architecture/
+* External Task Pattern: https://docs.camunda.org/manual/latest/user-guide/process-engine/external-tasks/
+* Recommended Greenfield Stack: https://camunda.com/best-practices/using-a-greenfield-stack/
+* BPM Assert Library for unit testing processes: https://github.com/camunda/camunda-bpm-assert
+* Supported environments for Camunda: https://docs.camunda.org/manual/latest/introduction/supported-environments/
+* Sizing your environment: https://camunda.com/best-practices/sizing-your-environment/
+* Development with Camunda (getting started with Spring Boot): https://docs.camunda.org/get-started/spring-boot/  
+

@@ -1,0 +1,36 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.devonfw.java.dev</groupId>
+    <artifactId>devonfw-bpm</artifactId>
+    <version>dev-SNAPSHOT</version>
+  </parent>
+
+  <groupId>com.devonfw.java.modules</groupId>
+  <artifactId>devon4j-bpm</artifactId>
+  <version>${devonfw.bpm.version}</version>
+  <packaging>jar</packaging>
+  <name>${project.artifactId}</name>
+  <description>BPM addon module for devon4j.</description>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.devonfw.java.boms</groupId>
+        <artifactId>devon4j-bom</artifactId>
+        <version>2020.08.001</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+  <dependencies>
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>devon4j-test</artifactId>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

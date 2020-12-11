@@ -1,0 +1,12 @@
+= BPM for Java
+
+When it comes to integration of BPM into your app, the recommended and most common approach is to keep the BPM product as a separate app or microservice (just like a database).
+Therefore, it is less important that the product itself is also implemented in the same technology.
+Instead, it is important that a suitable Java library exists to integrate the BPM product into your application seamlessly.
+However, where suitable choosing a Java based BPM product can still make your life easier in large Java projects as deployment, configuration, tracing errors, etc. will be more familiar.
+
+Good choices for BPM products in the Java world are:
+
+* link:guide-bpm-camunda.asciidoc[Camunda BPM] is a recommended BPM solution for general purpose (available as OSS community edition as well as licensed edition with support).
+* link:guide-bpm-zeebe.asciidoc[Zeebe] is a BPM engine specific for microservices orchestration and cloud-native usage.
+
